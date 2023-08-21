@@ -1,0 +1,6 @@
+<p>zd-static-route-data-in-router-outlet works!</p>
+
+
+<ng-container *ngIf="activatedRouteData$ | async as activatedRouteData">
+    <p>{{activatedRouteData['someStaticData']}}</p>
+</ng-container>
